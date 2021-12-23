@@ -5,6 +5,10 @@
 
 Author: **Frederik Stroes**.
 
+```console
+pip install git+https://github.com/fstroes/ridge-varx.git
+```
+
 ```Python3+
 RidgeVARX(self, endog, exog=None).fit(lags, deterministic_terms=('constant',), ridge_penalty=None, standardize=None, solver_kwargs=None)
 ```
