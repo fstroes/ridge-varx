@@ -15,7 +15,8 @@ RidgeVARX(self, endog, exog=None).fit(lags, deterministic_terms=('constant',), r
 
 This package allows the VARX model to be fitted using Ridge regularization. Ridge regularization allows for better out of sample performance of models fitted on finite samples. And using Ridge, a model can be fitted even if there are more explanatory variables than data points in the sample.
 
-Due to the known closed form solution of the estimation criterion, the model is efficiently estimated. Theory underlying the model and its parameter estimation, together with references can be found in the [model_technicalities notebook](https://github.com/fstroes/ridge-VARX/blob/main/model_technicalities.ipynb). A practical example of using the model on a synthetic dataset can be found in the [code_example notebook](https://github.com/fstroes/ridge-VARX/blob/main/code_example.ipynb)
+Due to the known closed form solution of the estimation criterion, the model is efficiently estimated. Theory underlying the model and its parameter estimation, together with references can be found in the [model estimation pdf](https://docs.google.com/viewer?url=$github.com/fstroes/ridge-varx/blob/main/model_estimation_ridge_varx.pdf
+). A practical example of using the model on a synthetic dataset can be found in the [code_example notebook](https://github.com/fstroes/ridge-VARX/blob/main/code_example.ipynb)
 
 # This package offers:
 
