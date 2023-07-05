@@ -1,2 +1,1 @@
-# relative import assuming that the parent package is ridge-VARX
-from ridge_varx import RidgeVARX
+from ridge_varx.ridge_varx import RidgeVARX
