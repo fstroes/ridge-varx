@@ -16,7 +16,7 @@ dev_packages = []
 setup(
     name="Ridge-VARX",
     version="0.0.1",
-    packages=find_packages('./', exclude=["images", ".ipynb_checkpoints"]),
+    packages=find_packages('../', exclude=["images", ".ipynb_checkpoints"]),
     description="A package for fitting a VARX model with Ridge regularization",
     long_description=read("README.md"),
     install_requires=base_packages,
